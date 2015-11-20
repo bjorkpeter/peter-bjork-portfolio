@@ -1,0 +1,101 @@
+@media only screen and (max-width: 500px) {
+    .masthead-heading {
+        font-size: 3em;
+    }
+}
+
+/* unvisited link */
+a:link {
+    color: #CC2900;
+}
+
+/* visited link */
+a:visited {
+    color: #CC2900;
+}
+
+/* mouse over link */
+a:hover {
+    color: #801A00;
+}
+
+/* selected link */
+a:active {
+    color: #801A00;
+}
+
+body {
+    /* Typography Declarations */
+    color: #222222;
+    font-size: 1em;
+    font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 1.5em 0;
+  background-image: url('https://images.unsplash.com/photo-1441906363162-903afd0d3d52?fit=crop&fm=jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0em 0.3em 0.5em 0em #ccc;
+  border-top: 1em solid #000000;
+  font-family: Roboto Slab, Georgia, serif;
+}
+
+.masthead-intro {
+  margin-bottom: 0.1em;
+  font-size: 2em;
+  opacity: 0.6;
+}
+
+.masthead-heading {
+  margin-top: -0.2em;
+  font-size: 5em;
+  text-shadow: 0.03em 0.03em 0.05em #FFEBE5;
+  opacity: 0.9;
+}
+
+h1 {
+  font-family: Roboto Slab, Georgia, serif;
+}
+
+h3 {
+  font-family: Roboto Slab, Georgia, Serif;
+  line-height: 0.7em;
+  color: #801A00;
+}
+
+.intro,
+.wherefrom,
+.more {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.more {
+  margin-bottom: 3em;
+}
+
+.footer {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 3em;
+  background-color: #FFA1A1;
+  box-shadow: 0em -0.3em 0.5em 0em #ccc;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.footer > ul {
+  padding: 0;
+  margin: 0;
+}
+
